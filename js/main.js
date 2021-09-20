@@ -12,7 +12,7 @@ var configs = (function () {
         }
     };
     Singleton.defaultOptions = {
-        welcome: "歡迎來到黑客社 Bot\n開始玩遊戲吧\n小提示:輸入 help 查看指令如何使用",
+        welcome: "歡迎來到黑客社 Bot\n開始玩遊戲吧\n小提示：輸入 help 查看指令如何使用",
         general_help: "您可以使用下列的指令\n若您覺得字出現的太慢可以雙擊加速喔(手機瀏覽器有可能會失效)\n\n輸入 cat game\n查看 game 這個檔案，內涵遊戲說明\n",
         ls_help: "List information about the files and folders (the current directory by default).",
         cat_help: "Read FILE(s) content and print it to the standard output (screen).",
@@ -66,18 +66,17 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "welcome":"歡迎來到黑客社 Bot\n開始玩遊戲吧\n小提示:輸入 help 查看指令如何使用",
-        "about": "這是一個模擬 Linux 系統的網頁\n您可以在這裡使用一些 Linux 指令\n為了安全我們封鎖了一些你原本可以用的指令\n\n您也可以在這裡玩找 flag 的小遊戲\n溫馨提醒: 查看 game 這個檔案查看遊戲如何玩\n(玩完可至攤位領取小禮物喔)\n\n除了體驗 Linux 指令及玩遊戲外\n你也可以嘗試輸入其他東西\n說不定會有意外發生喔\n\n小提示:輸入 ls 看看吧",
-        "game": "在這個網站裡藏了一個 flag\nflag 的格式是 HackerSir{xxx}\n找到他可以來黑課社攤位領取小獎品\n數量有限，送完就沒了喔\n\n小提示: 輸入 ls 查看有甚麼檔案",
+        "welcome":"歡迎來到黑客社 Bot\n開始玩遊戲吧\n小提示：輸入 help 查看指令如何使用",
+        "about": "這是一個模擬 Linux 系統的網頁\n您可以在這裡使用一些 Linux 指令\n為了安全我們封鎖了一些你原本可以用的指令\n\n您也可以在這裡玩找 flag 的小遊戲\n溫馨提醒：查看 game 這個檔案查看遊戲如何玩\n(玩完可至攤位領取小禮物喔)\n\n除了體驗 Linux 指令及玩遊戲外\n你也可以嘗試輸入其他東西\n說不定會有意外發生喔\n\n小提示:輸入 ls 看看吧",
+        "game": "在這個網站裡藏了一個 flag\nflag 的格式是 HackerSir{xxx}\n找到他，可以讓你更容易加入讀書會！\n\n小提示：輸入 ls 查看有什麼檔案",
         "flag": "很聰明喔，但這不是 flag",
         "privacy": window.location.href.toString() + 'privacy',
         "robots.txt": "User-agent: *\nAllow: /*/privacy*\nDisallow: /*/flag*",
-        "新生茶會": "日期:2019/09/17\n時間:19:00~21:00\n地點:科航八樓\n\n科航八樓在哪?\n從資電館往南走\n在商學院右邊\n請從科航館左邊門進入電梯\n搭往8樓\n\n還是不知道嗎?\n查看新生茶會地點這個檔案",
-        "新生茶會地點": "https://goo.gl/maps/6uNUywmbjU32",
-        "黑客社": "我不知道要放甚麼",
+        "HackerSir": "黑客社的成立並不是為了讓每一個人都成為駭客\n而是要推廣駭客的精神\n我們希望我們的社員都可以擁有一個熱愛新事物的心\n努力去鑽研、去改善喜爱的事物",
         "activity": "https://act.hackersir.org/",
         "facebook": "https://www.facebook.com/HackerSir.tw/",
-        "ig": "https://www.instagram.com/fcu_hackersir/",
+        "instagram": "https://www.instagram.com/fcu_hackersir/",
+        "discord": "https://discord.gg/VCfC43Te3T",
     };
     return {
         getInstance: function (options) {
