@@ -72,7 +72,7 @@ var files = (function () {
         "flag": "很聰明喔，但這不是 flag",
         "privacy": window.location.href.toString() + 'privacy',
         "robots.txt": "User-agent: *\nAllow: /*/privacy*\nDisallow: /*/flag*",
-        "HackerSir": "黑客社的成立並不是為了讓每一個人都成為駭客\n而是要推廣駭客的精神\n我們希望我們的社員都可以擁有一個熱愛新事物的心\n努力去鑽研、去改善喜爱的事物",
+        "HackerSir": "黑客社的成立並不是為了讓每一個人都成為駭客\n而是要推廣駭客的精神\n我們希望我們的社員都可以擁有一個熱愛新事物的心\n努力去鑽研、去改善喜愛的事物",
         "activity": "https://act.hackersir.org/",
         "facebook": "https://www.facebook.com/HackerSir.tw/",
         "instagram": "https://www.instagram.com/fcu_hackersir/",
